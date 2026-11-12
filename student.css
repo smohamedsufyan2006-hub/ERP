@@ -1,0 +1,309 @@
+/* =====================================
+   STUDENT ASSIGNMENT PAGE
+===================================== */
+
+
+.student-assignment-container{
+
+    width:100%;
+
+    padding:20px;
+
+}
+
+
+
+/* MAIN WHITE CARD */
+
+.student-assignment-card{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+
+}
+
+
+
+/* HEADER */
+
+.student-assignment-card .page-header{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    position:relative;
+
+    margin-bottom:35px;
+
+}
+
+
+.student-assignment-card .page-header h1{
+
+    color:#2563eb;
+
+    font-size:32px;
+
+    margin:0;
+
+}
+
+
+
+/* BACK BUTTON */
+
+.back-btn{
+
+    position:absolute;
+
+    left:0;
+
+    width:40px;
+
+    height:40px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:#2563eb;
+
+    color:white;
+
+    text-decoration:none;
+
+}
+
+
+
+/* TABLE CARD */
+
+
+.student-table-wrapper{
+
+    background:white;
+
+    border-radius:12px;
+
+    overflow:hidden;
+
+    box-shadow:0 3px 15px rgba(0,0,0,0.08);
+
+}
+
+
+
+/* TABLE */
+
+
+.student-table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+
+
+.student-table th{
+
+    background:#2563eb;
+
+    color:white;
+
+    padding:15px;
+
+    text-align:center;
+
+    font-size:16px;
+
+}
+
+
+
+.student-table td{
+
+    padding:14px;
+
+    text-align:center;
+
+    border-bottom:1px solid #e5e7eb;
+
+    font-size:15px;
+
+}
+
+
+
+.student-table tr:hover{
+
+    background:#f8fafc;
+
+}
+
+
+
+/* SUBMIT BUTTON */
+
+
+.teacher-btn{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    padding:8px 18px;
+
+    background:#2563eb;
+
+    color:white;
+
+    border-radius:8px;
+
+    text-decoration:none;
+
+    font-size:14px;
+
+}
+
+
+.teacher-btn:hover{
+
+    background:#1d4ed8;
+
+}
+/* =====================================
+   SUBMIT ASSIGNMENT PAGE
+===================================== */
+
+
+.assignment-details-card{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+
+}
+
+
+
+/* TITLE */
+
+.assignment-details-card h2{
+
+    text-align:center;
+
+    color:#2563eb;
+
+    font-size:26px;
+
+    margin-bottom:25px;
+
+}
+
+
+
+/* DETAILS */
+
+.assignment-details-card p{
+
+    font-size:16px;
+
+    line-height:1.8;
+
+    color:#374151;
+
+}
+
+
+
+.assignment-details-card b{
+
+    color:#111827;
+
+}
+
+
+
+/* UPLOAD AREA */
+
+.assignment-upload-box{
+
+    margin-top:30px;
+
+    padding:25px;
+
+    border-radius:12px;
+
+    background:#f8fafc;
+
+}
+
+
+
+/* FILE INPUT */
+
+.assignment-upload-box input[type="file"]{
+
+    width:100%;
+
+    padding:12px;
+
+    border:1px solid #d1d5db;
+
+    border-radius:8px;
+
+    margin-top:10px;
+
+}
+
+
+
+/* SUBMIT BUTTON */
+
+.assignment-submit-btn{
+
+    margin-top:20px;
+
+    padding:12px 25px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:#2563eb;
+
+    color:white;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+}
+
+
+
+.assignment-submit-btn:hover{
+
+    background:#1d4ed8;
+
+}

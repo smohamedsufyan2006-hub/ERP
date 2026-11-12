@@ -1,0 +1,300 @@
+/* =====================================
+   CLASS STUDENTS PAGE
+===================================== */
+
+.class-students-container{
+
+    width:100%;
+
+}
+
+
+
+/* =====================================
+   HEADER
+===================================== */
+
+.class-page-header{
+
+    position:relative;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin-bottom:40px;
+
+}
+
+
+
+.class-page-header h1{
+
+    color:#2563eb;
+
+    font-size:32px;
+
+    margin:0;
+
+}
+
+
+
+.class-page-header h1::after{
+
+    content:"";
+
+    display:block;
+
+    width:70px;
+
+    height:4px;
+
+    background:#06b6d4;
+
+    margin:10px auto 0;
+
+    border-radius:5px;
+
+}
+
+
+
+.class-back-btn{
+
+    position:absolute;
+
+    left:0;
+
+    width:42px;
+
+    height:42px;
+
+    border-radius:50%;
+
+    background:#3498db;
+
+    color:#fff;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    text-decoration:none;
+
+    font-size:20px;
+
+}
+
+
+
+/* =====================================
+   TOP CARDS
+===================================== */
+
+.class-top-section{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:stretch;
+
+    gap:30px;
+
+    margin-bottom:35px;
+
+}
+
+
+
+/* CLASS CARD */
+
+.class-info-card{
+
+    width:430px;
+
+    background:#2563eb;
+
+    color:white;
+
+    border-radius:15px;
+
+    padding:25px;
+
+    text-align:center;
+
+    box-shadow:0 6px 18px rgba(0,0,0,.15);
+
+}
+
+
+
+.class-info-card h2{
+
+    margin:0 0 15px;
+
+    font-size:28px;
+
+}
+
+
+
+.class-info-card p{
+
+    margin:8px 0;
+
+    font-size:18px;
+
+}
+
+
+
+/* TOTAL STUDENTS CARD */
+
+.student-count-card{
+
+    width:200px;
+
+    background:#2563eb;
+
+    color:white;
+
+    border-radius:15px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    box-shadow:0 6px 18px rgba(0,0,0,.15);
+
+}
+
+
+
+.student-count-card h3{
+
+    margin:0;
+
+    font-size:20px;
+
+}
+
+
+
+.student-count-card p{
+
+    margin-top:12px;
+
+    font-size:42px;
+
+    font-weight:bold;
+
+}
+
+
+
+/* =====================================
+   TABLE
+===================================== */
+
+.student-table-container{
+
+    width:100%;
+
+    background:#fff;
+
+    border-radius:15px;
+
+    padding:20px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.12);
+
+}
+
+
+
+.class-student-table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+
+
+.class-student-table th{
+
+    background:#2563eb;
+
+    color:white;
+
+    padding:14px;
+
+}
+
+
+
+.class-student-table td{
+
+    padding:12px;
+
+    text-align:center;
+
+    border-bottom:1px solid #e5e7eb;
+
+}
+
+
+
+/* =====================================
+   RESPONSIVE
+===================================== */
+
+@media(max-width:850px){
+
+    .class-top-section{
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+    .class-info-card{
+
+        width:100%;
+
+    }
+
+    .student-count-card{
+
+        width:250px;
+
+        height:150px;
+
+    }
+
+}
+.class-page-card{
+
+    width:100%;
+
+    background:#fff;
+
+    border-radius:18px;
+
+    padding:35px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.12);
+
+}
